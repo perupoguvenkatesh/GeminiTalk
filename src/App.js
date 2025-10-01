@@ -16,7 +16,7 @@ class App extends Component{
     })
   }
   onSubmit=async (event)=>{
-        const {userInput,isLoading}=this.state
+        const {userInput}=this.state
         this.setState({
           isLoading:true
         })
