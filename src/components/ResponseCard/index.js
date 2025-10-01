@@ -18,7 +18,7 @@ const ResponseCard=(props) => {
                 <h1 className="response-card-heading">GeminiTalk Response</h1>
                 {
                     isLoading && (
-                        <p className="loading">Loading...</p>
+                        <p className="loading">Gemini Thinking...</p>
                     )
                 }
                 {
