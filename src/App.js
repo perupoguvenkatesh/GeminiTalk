@@ -30,7 +30,7 @@ class App extends Component{
             },
             body:JSON.stringify(prompt)
         }
-        const url="https://gemini-talk-backend.vercel.app//generate"
+        const url="https://gemini-talk-backend.vercel.app/generate"
         
         try{
             let response=await fetch(url,options)
